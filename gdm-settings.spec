@@ -5,18 +5,18 @@ Group:     Graphical desktop/GNOME
 Summary:   A settings app for Gnome Login Manager (GDM)
 License:   AGPLv3+
 Url:       https://github.com/realmazharhussain/gdm-settings
-Source0:   https://github.com/realmazharhussain/gdm-settings/archive/refs/tags/v1.1/%{name}-%{version}.tar.gz
+Source0:   https://github.com/realmazharhussain/gdm-settings/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  meson
-BuildRequires:  python3-blueprint-compiler
+BuildRequires:  python-blueprint-compiler
 BuildRequires:  blueprint-compiler-devel
 BuildRequires:  pkgconfig(gtk4)
-BuildRequires:  pkgconfig(libadwaita-1) >= 1.2.0
+BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:  pkgconfig(pygobject-3.0)
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  desktop-file-utils
 BuildRequires:  appstream-util
-BuildRequires:  pkgconfig(python3)
+BuildRequires:  pkgconfig(python)
 BuildRequires:  gtk4-update-icon-cache
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  appstream
@@ -25,7 +25,7 @@ BuildRequires:  desktop-file-utils
 Requires: gdm
 Requires: polkit
 Requires: gettext
-Requires: libadwaita-common >= 1.2.0
+Requires: %{_lib}adwaita1_0
 
 BuildArch: noarch
 
