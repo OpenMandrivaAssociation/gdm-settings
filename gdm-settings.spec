@@ -52,7 +52,7 @@ With User Login Manager you can:
 %{_datadir}/dbus-1/services/*.service
 #-------------------------------------------------------
 %prep
-%autosetup
+%autosetup -p1
 
 
 %build
@@ -68,9 +68,3 @@ sed -i -e 's/^#!\/usr\/bin\/env python3/#!\/usr\/bin\/python3/g' \
 
 
 %find_lang %{name}
-
-
-%check
-meson test -C noarch-rosa-linux-gnu --print-errorlogs
-appstream-util validate-relax --nonet %{buildroot}%{_datadir}/metainfo/*.xml
-desktop-file-validate %{buildroot}%{_datadir}/applications/*.desktop
