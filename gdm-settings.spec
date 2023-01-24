@@ -11,6 +11,8 @@ BuildRequires:  appstream
 BuildRequires:  appstream-util
 BuildRequires:  desktop-file-utils
 BuildRequires:  meson
+BuildRequires:  python-gobject3
+BuildRequires:  python-gi
 BuildRequires:  python-blueprint-compiler
 BuildRequires:  pkgconfig(blueprint-compiler)
 BuildRequires:  pkgconfig(gtk4)
