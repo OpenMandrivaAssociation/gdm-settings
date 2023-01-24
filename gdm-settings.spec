@@ -45,7 +45,7 @@ With User Login Manager you can:
 %{_bindir}/gdm-settings
 %{_datadir}/gdm-settings
 %{py3_puresitedir}/gdm_settings
-#{_appdatadir}/*.xml
+%{_datadir}/metainfo/io.github.realmazharhussain.GdmSettings.metainfo.xml
 %{_datadir}/applications/*.desktop
 %{_datadir}/glib-2.0/schemas/*
 %{_datadir}/icons/hicolor/*/*/*.svg
