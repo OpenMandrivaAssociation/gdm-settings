@@ -7,20 +7,19 @@ License:   AGPLv3+
 Url:       https://github.com/realmazharhussain/gdm-settings
 Source0:   https://github.com/realmazharhussain/gdm-settings/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 
+BuildRequires:  appstream
+BuildRequires:  appstream-util
+BuildRequires:  desktop-file-utils
 BuildRequires:  meson
+BuildRequires:  gtk4-update-icon-cache
 BuildRequires:  python-blueprint-compiler
-BuildRequires:  blueprint-compiler-devel
+BuildRequires:  pkgconfig(blueprint-compiler)
 BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:  pkgconfig(pygobject-3.0)
 BuildRequires:  pkgconfig(glib-2.0)
-BuildRequires:  desktop-file-utils
-BuildRequires:  appstream-util
 BuildRequires:  pkgconfig(python)
-BuildRequires:  gtk4-update-icon-cache
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
-BuildRequires:  appstream
-BuildRequires:  desktop-file-utils
 
 Requires: gdm
 Requires: polkit
