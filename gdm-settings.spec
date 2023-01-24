@@ -11,7 +11,6 @@ BuildRequires:  appstream
 BuildRequires:  appstream-util
 BuildRequires:  desktop-file-utils
 BuildRequires:  meson
-BuildRequires:  gtk4-update-icon-cache
 BuildRequires:  python-blueprint-compiler
 BuildRequires:  pkgconfig(blueprint-compiler)
 BuildRequires:  pkgconfig(gtk4)
