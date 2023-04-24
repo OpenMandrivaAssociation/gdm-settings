@@ -1,6 +1,6 @@
 Name:      gdm-settings
-Version:   2.1
-Release:   2
+Version:   3.1
+Release:   1
 Group:     Graphical desktop/GNOME
 Summary:   A settings app for Gnome Login Manager (GDM)
 License:   AGPLv3+
