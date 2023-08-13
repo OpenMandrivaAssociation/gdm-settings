@@ -1,5 +1,5 @@
 Name:      gdm-settings
-Version:   3.2
+Version:   3.3
 Release:   1
 Group:     Graphical desktop/GNOME
 Summary:   A settings app for Gnome Login Manager (GDM)
