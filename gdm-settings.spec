@@ -44,7 +44,7 @@ With User Login Manager you can:
 %doc README.md LICENSE
 %{_bindir}/gdm-settings
 %{_datadir}/gdm-settings
-%{py3_puresitedir}/gdm_settings
+#{py3_puresitedir}/gdm_settings
 %{_datadir}/metainfo/io.github.realmazharhussain.GdmSettings.metainfo.xml
 %{_datadir}/applications/*.desktop
 %{_datadir}/glib-2.0/schemas/*
