@@ -1,11 +1,11 @@
 Name:      gdm-settings
-Version:   4
-Release:   0.beta1.0
+Version:   4.0
+Release:   1
 Group:     Graphical desktop/GNOME
 Summary:   A settings app for Gnome Login Manager (GDM)
 License:   AGPLv3+
 Url:       https://github.com/realmazharhussain/gdm-settings
-Source0:   https://github.com/realmazharhussain/gdm-settings/archive/refs/tags/v%{version}/%{name}-%{version}.beta1.tar.gz
+Source0:   https://github.com/realmazharhussain/gdm-settings/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  appstream
 BuildRequires:  appstream-util
@@ -52,7 +52,7 @@ With User Login Manager you can:
 %{_datadir}/dbus-1/services/*.service
 #-------------------------------------------------------
 %prep
-%autosetup -n %{name}-%{version}.beta1 -p1
+%autosetup -n %{name}-%{version} -p1
 
 
 %build
