@@ -9,6 +9,7 @@ Source0:   https://github.com/realmazharhussain/gdm-settings/archive/refs/tags/v
 
 BuildRequires:  appstream
 BuildRequires:  appstream-util
+BuildRequires:  gettext
 BuildRequires:  desktop-file-utils
 BuildRequires:  meson
 BuildRequires:  python-gobject3
