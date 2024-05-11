@@ -1,3 +1,4 @@
+%define _empty_manifest_terminate_build 0
 Name:      gdm-settings
 Version:   4.4
 Release:   1
