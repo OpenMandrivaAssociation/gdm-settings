@@ -1,6 +1,6 @@
 %define _empty_manifest_terminate_build 0
 Name:      gdm-settings
-Version:   4.4
+Version:   5.0
 Release:   1
 Group:     Graphical desktop/GNOME
 Summary:   A settings app for Gnome Login Manager (GDM)
