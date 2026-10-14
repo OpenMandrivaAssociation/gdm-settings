@@ -1,7 +1,7 @@
 %define _empty_manifest_terminate_build 0
 Name:      gdm-settings
 Version:   5.0
-Release:   2
+Release:   3
 Group:     Graphical desktop/GNOME
 Summary:   A settings app for Gnome Login Manager (GDM)
 License:   AGPLv3+
@@ -21,7 +21,7 @@ BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:  pkgconfig(pygobject-3.0)
 BuildRequires:  pkgconfig(glib-2.0)
-BuildRequires:  pkgconfig(python)
+BuildRequires:  pkgconfig(python3)
 BuildRequires:  pkgconfig(gobject-introspection-1.0)
 
 Requires: gdm
@@ -65,7 +65,7 @@ With User Login Manager you can:
 %install
 %meson_install
 # remove use of /usr/bin/env
-sed -i -e 's/^#!\/usr\/bin\/env python3/#!\/usr\/bin\/python3/g' \
+sed -i -e 's/^#!\/usr\/bin\/env python3/#!\/usr\/bin\/python/g' \
     %{buildroot}%{_bindir}/gdm-settings
 
 
